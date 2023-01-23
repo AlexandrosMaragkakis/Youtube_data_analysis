@@ -8,6 +8,10 @@ from matplotlib import dates as mdates
 client = MongoClient('mongodb://localhost:27017/')
 result = client['my_db']['videos_data'].aggregate([
     {
+        '$match': {
+            'country': 'GB'
+        }
+    }, {
         '$project': {
             'date': {
                 '$dateToString': {
@@ -19,10 +23,7 @@ result = client['my_db']['videos_data'].aggregate([
                         }
                     }
                 }
-            }, 
-            'video_id': 1, 
-            'title': 1, 
-            'country': 'GB'
+            }
         }
     }, {
         '$match': {
