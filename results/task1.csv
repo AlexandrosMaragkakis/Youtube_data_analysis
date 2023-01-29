@@ -1,4 +1,4 @@
-_id,max_likes,max_dislikes,max_views,date
+_id,likes,dislikes,views,publishedAt
 Jim Carrey and Maya Rudolph Transform into Joe Biden and Kamala Harris - SNL,42891,2650,2526816,2020-10-01
 Superspreader Event - SNL,43426,1370,2504202,2020-10-04
 Weekend Update: Trump Tests Positive for Covid - SNL,40076,2449,2916986,2020-10-04
@@ -28,5 +28,5 @@ Taylor Swift: All Too Well (Live) - SNL,147346,1787,2923091,2021-11-14
 Johnny Depp and Amber Heard Trial Cold Open - SNL,63641,0,6104838,2022-05-15
 Final Encounter Cold Open - SNL,69199,0,3479118,2022-05-22
 Weekend Update: Pete Davidson Says Goodbye for Now - SNL,67011,0,3092421,2022-05-22
-ManningCast Cold Open - SNL,15793,0,1406390,2022-10-02
+ManningCast Cold Open - SNL,15793,0,1377255,2022-10-02
 Try Guys - SNL,32755,0,2167367,2022-10-09
